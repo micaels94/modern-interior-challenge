@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300&family=Lora:wght@400;500;600&family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --crimson-pro: 'Crimson Pro', serif;
+    --lora: 'Lora', serif;
+    --montserrat: 'Montserrat', sans-serif;
+
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: rgba(24, 23, 25, 1);
+   color: #fff;
+}
+
+#header-wrapper{
+    display: flex; 
+}
+
+#title-wrapper{
+    border: 1px solid #fff;
+    width: 102px;
+    height: 32px;
+    margin-top: 42px;
+    margin-left: 77px;
+}
