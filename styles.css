@@ -28,4 +28,21 @@ body{
     height: 32px;
     margin-top: 42px;
     margin-left: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-wrapper > h4{
+    font-family: var(--crimson-pro);
+    text-transform: uppercase;
+    width: 86px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 15.56px;
+   
+}
+
+#menu-wrapper{
+    display: flex;
 }
